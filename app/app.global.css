@@ -1,0 +1,63 @@
+@import "../node_modules/flexboxgrid/css/flexboxgrid.min.css";
+@import "../node_modules/tinymce/skins/lightgray/skin.min.css";
+@import "../node_modules/tinymce/skins/lightgray/content.inline.min.css";
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+:root {
+    --text-color: #3f2d3b;
+    --main-bg-color: #f2ce04;
+    --secondary-bg-color: #e8b601;
+    /*#743042
+    #9c1f2d
+    #dd800b*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html, #root {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.root-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--secondary-bg-color);
+    flex: 0 0 53px;
+}
+.lb-main-container{
+    max-width: 1200px;
+    width: 100%;
+    flex: 1 1;
+}
+footer {
+    background-color: var(--secondary-bg-color);
+    flex: 0 0 200px;
+    max-width: 1200px;
+    align-self: center;
+    width: 100%;
+}
+
+.lb-cover{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.imageBlock {
+    margin: 10px 0;
+}
+
+.imageBlockEdit {
+    min-height: 20px;
+    border: 1px dashed #666;
+}

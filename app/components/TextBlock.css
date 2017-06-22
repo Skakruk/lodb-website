@@ -1,0 +1,25 @@
+.textBlock {
+    margin: 10px 0;
+}
+
+.textBlock p {
+    overflow: auto;
+}
+
+.textBlock img {
+    padding: 5px;
+    background-color: #fff;
+    border: 2px solid #E2C749;
+    margin: 0 10px;
+}
+
+.textBlock[contenteditable=true]:empty:before{
+    content: attr(placeholder);
+    display: block;
+    color: #666666;
+}
+
+.textBlockEdit{
+    min-height: 20px;
+    border: 1px dashed #666;
+}

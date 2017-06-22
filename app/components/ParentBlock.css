@@ -1,0 +1,15 @@
+.content-block-container{
+    position: relative;
+}
+
+.block-actions{
+    position: absolute !important;
+    top: 0;
+    right: -48px;
+    display: flex;
+    flex-direction: column
+}
+
+.add-action{
+    text-align: center;
+}
